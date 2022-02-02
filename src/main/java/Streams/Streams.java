@@ -32,7 +32,7 @@ public class Streams {
 			  c.stream().filter(a->a>5).filter(a->a%2!=0).sorted().forEach(a->{System.out.
 			  println(a); });
 			  c.stream().filter(a->a>=5).filter(a->a%2==0).map(a->a+2).sorted().forEach(a->{System.out.println(a);});
-			 
+		ok all	 
 		  }
 		 
 
