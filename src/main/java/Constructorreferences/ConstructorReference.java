@@ -10,6 +10,7 @@ class Message{
 public class ConstructorReference {  
     public static void main(String[] args) {  
         Messageable hello = Message::new;  
-        hello.getMessage("Hello");  
+        hello.getMessage("Hello");
+        hello.getmeassage("hi");
     }  
 }  
