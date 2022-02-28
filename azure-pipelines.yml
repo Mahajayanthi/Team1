@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-  Stages1:
+  Stages:
   - stage : 'Junit'
     displayName : 'Junit stage'
 
