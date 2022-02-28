@@ -4,10 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- maha
+- master
 
 pool:
   vmImage: ubuntu-latest
+
   stages:
   - stage : 'Junit'
     displayName : 'Junit stage'
