@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
   Stages:
-  - stage : 'Junit'
+  - Stage : 'Junit'
     displayName : 'Junit stage'
 
     jobs:
